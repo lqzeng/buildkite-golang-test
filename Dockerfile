@@ -18,8 +18,8 @@ RUN go build -o /hello
 EXPOSE 8080
 
 # command to execute when image is used to start a container
-
-CMD ["/hello"]
+# will use shell script for timebeing with use in buildkite
+##CMD ["/hello"]
 
 # docker run -it <image name> /bin/sh to open shell prompt
 
