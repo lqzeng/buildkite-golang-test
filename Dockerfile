@@ -24,3 +24,6 @@ CMD ["/hello"]
 # docker run -it <image name> /bin/sh to open shell prompt
 
 # to publish a port for a container docker run --publish 8080:8080 <image name>
+
+# use -d flag to detach from the terminal
+# docker run -dp 8080:8080 <image name>
